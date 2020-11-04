@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Persistenciat5</string>
+    <string name="texto_about_info">Acerca de Mi, no regalare mis datos</string>
+    <string name="texto_about">Texto About</string>
+    <string name="texto_contacto_mensaje">Inserte su mensaje</string>
+    <string name="texto_contacto_email">Ingrese su email</string>
+    <string name="texto_contacto_nombre">Ingrese su nombre</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="pQtyHuesos">Loren Ipsum</string>
+    <string name="pnombre">Loren Ipsum</string>
+</resources>
