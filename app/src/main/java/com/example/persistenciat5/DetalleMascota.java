@@ -14,8 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.persistenciat5.adaptador.MascotaAdaptador;
 import com.example.persistenciat5.pojo.Mascota;
-import com.ferncuy.curso3semana5.adapter.MascotaAdaptador;
-import com.ferncuy.curso3semana5.pojo.Mascota;
+
 
 import java.util.ArrayList;
 
@@ -60,11 +59,11 @@ public class DetalleMascota extends AppCompatActivity {
 
     public void inicializarListaContactos () {
         mascotas = new ArrayList<Mascota>();
-        mascotas.add(new Mascota(R.drawable.vaca, "Vaca", 0));
-        mascotas.add(new Mascota(R.drawable.caballo, "Caballo", 0));
-        mascotas.add(new Mascota(R.drawable.cabra, "Cabra", 0));
-        mascotas.add(new Mascota(R.drawable.cerdo, "Cerdo", 0));
-        mascotas.add(new Mascota(R.drawable.oveja, "Oveja", 0));
+        mascotas.add(new Mascota(R.drawable.gato1, "Kero", 0));
+        mascotas.add(new Mascota(R.drawable.gato2, "Pikachu", 0));
+        mascotas.add(new Mascota(R.drawable.gato3, "Ramon", 0));
+        mascotas.add(new Mascota(R.drawable.gato4, "Pato", 0));
+        mascotas.add(new Mascota(R.drawable.gato5, "Milu", 0));
     }
 
     @Override

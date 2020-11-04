@@ -1,5 +1,6 @@
 package com.example.persistenciat5;
 
+import android.media.MediaCas;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.os.StrictMode.ThreadPolicy;
@@ -42,10 +43,11 @@ public class ActivityContacto extends AppCompatActivity {
         btnEnviarEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //permisos
+
+
                 ThreadPolicy policy = new ThreadPolicy.Builder().permitAll().build();
                 StrictMode.setThreadPolicy(policy);
-                //propiedades de conexion
+
                 Properties properties = System.getProperties();
                 properties.put("mail.smtp.host", "smtp.gmail.com");
                 properties.put("mail.smtp.user", Login.USER);
@@ -65,12 +67,12 @@ public class ActivityContacto extends AppCompatActivity {
                     transport.connect("smtp.gmail.com", Login.USER, Login.PASSWORD);
                     transport.sendMessage(message, message.getAllRecipients());
                     transport.close();
-                    Toast.makeText(ActivityContacto.this, "Mensaje enviado", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ActivityContacto.this, "Su mensaje se ha enviado correctamente", Toast.LENGTH_LONG).show();
 
 
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast.makeText(ActivityContacto.this, "No se pudo enviar el mail", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ActivityContacto.this, "Mensaje no enviado", Toast.LENGTH_LONG).show();
                 }
             }
         });

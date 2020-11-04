@@ -9,12 +9,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.persistenciat5.R;
 import com.example.persistenciat5.pojo.Mascota;
-import com.ferncuy.curso3semana5.R;
-import com.ferncuy.curso3semana5.adapter.MascotaAdaptador;
-import com.ferncuy.curso3semana5.pojo.Mascota;
-import com.ferncuy.curso3semana5.presentador.IRecyclerViewFragmentPresenter;
-import com.ferncuy.curso3semana5.presentador.RecyclerViewFragmentPresenter;
+import com.example.persistenciat5.presentador.IRecyclerViewFragmentPresenter;
+import com.example.persistenciat5.presentador.RecyclerViewFragmentPresenter;
+
 
 import java.util.ArrayList;
 
@@ -29,7 +28,7 @@ public class RecyclerViewFragment extends Fragment implements IRecyclerViewFragm
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this vista.vistafragment
-        View v = inflater.inflate(R.layout.fragment_recicler_view, container, false);
+        View v = inflater.inflate(R.layout.fragment_recycler_view, container, false);
 
         rvMascotas = ( RecyclerView) v.findViewById(R.id.rvMascotasFragment);
         presenter = new RecyclerViewFragmentPresenter(this, getContext());

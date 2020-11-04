@@ -24,7 +24,7 @@ android:elevation="4dp">
         android:layout_height="250dp"
         android:layout_gravity="center_horizontal"
         android:scaleType="fitCenter"
-        android:src="@drawable/vaca"></ImageView>
+        android:src="@drawable/gato2"></ImageView>
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -37,7 +37,7 @@ android:elevation="4dp">
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:background="@color/cardview_light_background"
-            card_view:srcCompat="@drawable/icons8_hueso_azul"
+            card_view:srcCompat="@drawable/bone1"
             tools:ignore="MissingConstraints" />
 
         <TextView
@@ -55,7 +55,7 @@ android:elevation="4dp">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/icons8_hueso_naranja"
+            android:src="@drawable/bone1"
             card_view:layout_constraintEnd_toStartOf="@+id/tvQtyHuesosCV"
             tools:layout_editor_absoluteY="0dp"
             tools:ignore="MissingConstraints"></ImageView>

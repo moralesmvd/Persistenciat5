@@ -18,7 +18,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="centerCrop"
-            android:src="@drawable/vaca"
+            android:src="@drawable/gato1"
 
             app:civ_border_color="#009688"
             app:civ_border_width="6dp"
@@ -44,11 +44,11 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
-            android:paddingVertical="@dimen/margin_top"
+            android:paddingVertical="5dp"
             android:id="@+id/rvMascotasGrid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:elevation="@dimen/elevacion_drawaer">
+            android:elevation="@dimen/cardview_default_elevation">
 
         </androidx.recyclerview.widget.RecyclerView>
 

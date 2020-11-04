@@ -15,9 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.persistenciat5.db.ConstructorMascotas;
 import com.example.persistenciat5.pojo.Mascota;
 import com.example.persistenciat5.R;
-import com.ferncuy.curso3semana5.R;
-import com.ferncuy.curso3semana5.db.ConstructorMascotas;
-import com.ferncuy.curso3semana5.pojo.Mascota;
+
 
 import java.util.ArrayList;
 

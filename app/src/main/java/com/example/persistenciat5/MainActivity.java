@@ -1,11 +1,13 @@
 package com.example.persistenciat5;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -15,6 +17,8 @@ import android.widget.Toast;
 import android.widget.Toolbar;
 
 import com.example.persistenciat5.adaptador.PageAdapter;
+import com.example.persistenciat5.vistafragment.PerfilFragment;
+import com.example.persistenciat5.vistafragment.RecyclerViewFragment;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -24,6 +28,7 @@ public class MainActivity extends AppCompatActivity { public ImageButton btnEstr
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,8 +73,8 @@ public class MainActivity extends AppCompatActivity { public ImageButton btnEstr
         viewPager.setAdapter(new PageAdapter(getSupportFragmentManager(),agregarFragments()));
         tabLayout.setupWithViewPager(viewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_action_home);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_action_perfil);
+        tabLayout.getTabAt(0).setIcon(R.drawable.pets1);
+        tabLayout.getTabAt(1).setIcon(R.drawable.pets1);
     }
     private void setSupportActionBar(Toolbar miActionBarbtn) {
     }

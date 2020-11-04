@@ -24,7 +24,7 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
-            android:src="@drawable/vaca"></ImageView>
+            android:src="@drawable/gato1"></ImageView>
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,7 +35,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/icons8_hueso_naranja"
+                android:src="@drawable/bone1"
                 card_view:layout_constraintBottom_toBottomOf="parent"
                 card_view:layout_constraintStart_toStartOf="parent"
                 card_view:layout_constraintTop_toTopOf="parent"

@@ -5,9 +5,7 @@ import android.content.Context;
 import com.example.persistenciat5.db.ConstructorMascotas;
 import com.example.persistenciat5.pojo.Mascota;
 import com.example.persistenciat5.vistafragment.IRecyclerViewFragmentView;
-import com.ferncuy.curso3semana5.db.ConstructorMascotas;
-import com.ferncuy.curso3semana5.pojo.Mascota;
-import com.ferncuy.curso3semana5.vistafragment.IRecyclerViewFragmentView;
+
 
 import java.util.ArrayList;
 

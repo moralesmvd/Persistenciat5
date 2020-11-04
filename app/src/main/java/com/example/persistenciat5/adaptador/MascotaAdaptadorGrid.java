@@ -12,8 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.persistenciat5.pojo.Mascota;
 import com.example.persistenciat5.R;
-import com.ferncuy.curso3semana5.R;
-import com.ferncuy.curso3semana5.pojo.Mascota;
+
 
 import java.util.ArrayList;
 
@@ -62,8 +61,8 @@ public class MascotaAdaptadorGrid extends RecyclerView.Adapter<MascotaAdaptadorG
     }
 
     @Override
-    public int getItemCount() {//cantidad de elementos que contine mi lista
-        return mascotas.size(); // mascotas .size es la cantidad de elementos que contiene la lista de mascotas
+    public int getItemCount() {
+        return mascotas.size();
     }
 
 

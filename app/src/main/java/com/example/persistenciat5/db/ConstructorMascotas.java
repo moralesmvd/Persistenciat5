@@ -7,8 +7,7 @@ import com.example.persistenciat5.R;
 import com.example.persistenciat5.db.BaseDatos;
 import com.example.persistenciat5.db.ConstantesBaseDatos;
 import com.example.persistenciat5.pojo.Mascota;
-import com.ferncuy.curso3semana5.R;
-import com.ferncuy.curso3semana5.pojo.Mascota;
+;
 
 import java.util.ArrayList;
 
@@ -31,31 +30,31 @@ public class ConstructorMascotas {
     public void insertarMisMascotas (BaseDatos db){
         ContentValues contentValues = new ContentValues();
         contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Vaca");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.vaca);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato1);
 
         db.insertarMascota(contentValues);
 
         contentValues =  new ContentValues();
         contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Caballo");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.caballo);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato2);
 
         db.insertarMascota(contentValues);
 
         contentValues =  new ContentValues();
         contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Cabra");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.cabra);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato3);
 
         db.insertarMascota(contentValues);
 
         contentValues =  new ContentValues();
         contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Cerdo");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.cerdo);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato4);
 
         db.insertarMascota(contentValues);
 
         contentValues =  new ContentValues();
         contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_NOMBRE, "Oveja");
-        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.oveja);
+        contentValues.put(ConstantesBaseDatos.TABLA_MASCOTAS_FOTO, R.drawable.gato5);
 
         db.insertarMascota(contentValues);
     }

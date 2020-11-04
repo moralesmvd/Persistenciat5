@@ -9,9 +9,10 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ferncuy.curso3semana5.R;
-import com.ferncuy.curso3semana5.adapter.MascotaAdaptadorGrid;
-import com.ferncuy.curso3semana5.pojo.Mascota;
+
+import com.example.persistenciat5.R;
+import com.example.persistenciat5.adaptador.MascotaAdaptadorGrid;
+import com.example.persistenciat5.pojo.Mascota;
 
 import java.util.ArrayList;
 
@@ -79,15 +80,15 @@ public class PerfilFragment extends Fragment {
 
     public void inicializarListaMascotasGrid() {
         mascotas = new ArrayList<Mascota>();
-        mascotas.add(new Mascota(R.drawable.vaca, 1));
-        mascotas.add(new Mascota(R.drawable.vaca, 2));
-        mascotas.add(new Mascota(R.drawable.vaca, 3));
-        mascotas.add(new Mascota(R.drawable.vaca, 4));
-        mascotas.add(new Mascota(R.drawable.vaca, 5));
-        mascotas.add(new Mascota(R.drawable.vaca, 6));
-        mascotas.add(new Mascota(R.drawable.vaca, 7));
-        mascotas.add(new Mascota(R.drawable.vaca, 8));
-        mascotas.add(new Mascota(R.drawable.vaca, 9));
+        mascotas.add(new Mascota(R.drawable.gato1, 1));
+        mascotas.add(new Mascota(R.drawable.gato1, 2));
+        mascotas.add(new Mascota(R.drawable.gato2, 3));
+        mascotas.add(new Mascota(R.drawable.gato2, 4));
+        mascotas.add(new Mascota(R.drawable.gato3, 5));
+        mascotas.add(new Mascota(R.drawable.gato3, 6));
+        mascotas.add(new Mascota(R.drawable.gato4, 7));
+        mascotas.add(new Mascota(R.drawable.gato4, 8));
+        mascotas.add(new Mascota(R.drawable.gato5, 9));
 
     }
 
